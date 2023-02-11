@@ -3,7 +3,7 @@
 
 ## Why use Autogater?
 AutoGater is a weakly supervised deep learning model that can separate healthy populations from unhealthy and dead populations using only light-scatter channels. In addition, AutoGater harmonizes different measurements of dead cells such as Sytox and CFUs.
-A link to the paper on biorxiv is here: [Link] (https://www.biorxiv.org/content/10.1101/2022.12.07.519491v1)
+A link to the paper on biorxiv is here: [Link](https://www.biorxiv.org/content/10.1101/2022.12.07.519491v1)
 
 ## Using the Test Harness
 
