@@ -34,6 +34,14 @@ treatment_column = n.inducer_concentration
 col_idx = OrderedDict([(n.label, 0), (treatment_column, 1), ("timepoint", 2), ("percent_live", 3)])
 
 
+def set_treatment_column(treat_col):
+    global treatment_column
+    global col_idx
+
+    treatment_column = treat_col
+
+    col_idx = OrderedDict([(n.label, 0), (treatment_column, 1), ("timepoint", 2), ("percent_live", 3)])
+
 def training_progress(fitted_model, metrics, num_plots, loss_name, plot_val=None):
     '''
     A function for plotting the model history by showing the metric and loss throughout training
