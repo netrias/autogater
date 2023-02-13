@@ -9,4 +9,4 @@ scikit_learn==1.2.1
 scipy==1.9.1
 seaborn==0.11.2
 tensorflow==2.11.0
-test_harness @ git+https://github.com/SD2E/test-harness@master#egg=test_harness
+test_harness @ git+https://github.com/SD2E/test-harness@develop#egg=test_harness
