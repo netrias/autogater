@@ -575,11 +575,11 @@ def kde_scatter(conc_df, cc="RL1-H", logged=False, fraction_of_points_based_on_k
     else:
         subset_no_debris = subset_df.copy()
 
-    cluster_boundary = alphashape.alphashape(list(zip(subset_no_debris[ssc],
-                                                      subset_no_debris[fsc])), 0)
-
-    # second plot (just a visual boundary line) overlaid on first plot:
-    ax1.add_patch(PolygonPatch(cluster_boundary, alpha=1.0, ec=lines_color, fc="none", lw=5))
+    # cluster_boundary = alphashape.alphashape(list(zip(subset_no_debris[ssc],
+    #                                                   subset_no_debris[fsc])), 0)
+    #
+    # # second plot (just a visual boundary line) overlaid on first plot:
+    # ax1.add_patch(PolygonPatch(cluster_boundary, alpha=1.0, ec=lines_color, fc="none", lw=5))
 
     # Begin creating third plot, which is actually the second standalone plot, and plots FSC against stain
     #       for the points that were selected in the first plot:
